@@ -1,0 +1,28 @@
+{
+  "name": "openSuite",
+  "version": "1.0",
+  "description": "Includes all the free open source tools from https://nxone.co",
+  "permissions": ["activeTab", "declarativeContent", "storage", "contextMenus"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/murph128.png",
+      "32": "images/murph128.png",
+      "48": "images/murph128.png",
+      "128": "images/murph128.png"
+    }
+  },
+  "icons": {
+    "16": "images/murph128.png",
+    "32": "images/murph128.png",
+    "48": "images/murph128.png",
+    "128": "images/murph128.png"
+  },
+  "manifest_version": 2
+}

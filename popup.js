@@ -28,7 +28,7 @@ snapToast.style.display = 'none'
     .then((response) => {
       let result = response
       snapToast.style.display = 'flex'
-      snapText.value = serverUrl + '/l/' + result.url
+      snapText.value = serverUrl + '/snaps/' + result.url
     })
     .catch((error) => {
       snapToast.style.display = 'flex'
